@@ -1,0 +1,136 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    background-color: #dbffe7;
+    height: 30px;
+    float: top;
+    padding:5px;
+    width: 99%;
+    color: #002b36;
+}
+
+#plane{
+    position: absolute;
+}
+
+#homeButton{
+    height: 30px;
+    background-color: #dbffe7;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: fixed;
+    left: 80px;
+    text-align: center;
+    color: #002b36;
+}
+
+#browseButton{
+    height: 30px;
+    background-color: #ffea8f;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: fixed;
+    left: 230px;
+    text-align: center;
+    color: #002b36;
+}
+
+#searchButton{
+    height: 30px;
+    background-color: #dbffe7;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: fixed;
+    left: 380px;
+    text-align: center;
+    color: #002b36;
+}
+
+a{
+    text-decoration: none;
+}
+
+#homeButton:hover,#browseButton:hover,#searchButton:hover{
+    background-color: #ffc900;
+}
+
+.dropdown{
+    position:absolute;
+    margin: auto;
+    right: 10px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#myAccount:hover{
+    cursor: pointer;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #dbffe7;
+    min-width: 150px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-button{
+    min-width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: #002b36;
+}
+
+.dropdown-button:hover{
+    background-color: #ffc900;
+}
+
+.icon1{
+    position: absolute;
+    left: 0;
+    top:10px;
+}
+
+.icon2{
+    position: absolute;
+    left: 0;
+    top:60px;
+}
+
+.icon3{
+    position: absolute;
+    left: 0;
+    top:110px;
+}
+
+.icon4{
+    position: absolute;
+    left: 0;
+    top:160px;
+}
+
+#footer{
+    position:fixed;
+    bottom:0;
+    background-color: #AAA;
+    width:100%;
+    text-align: center;
+    font-family: 'Microsoft YaHei UI',fantasy;
+    opacity: 0.7;
+}

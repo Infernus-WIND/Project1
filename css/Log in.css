@@ -1,0 +1,67 @@
+#middle{
+    width:400px;
+    height:400px;
+    margin:auto;
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background-color: #dbffe7;
+    border-radius:30px;
+}
+#middle2{
+    width:200px;
+    height:200px;
+    margin:auto;
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background-color: #dbffe7;
+}
+.button{
+    background-color: #4dff00;
+    font-family: 'Microsoft YaHei UI',fantasy;
+    font-size:20px;
+    width:200px;
+}
+.button:hover {background-color: #ffc900;cursor: pointer}
+
+body,html{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#footer{
+    position:fixed;
+    bottom:0;
+    background-color: #AAA;
+    width:100%;
+    text-align: center;
+    font-family: 'Microsoft YaHei UI',fantasy;
+    opacity: 0.7;
+}
+
+.formInput{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.form{
+    font-family: 'Microsoft YaHei UI',fantasy;
+}
+
+.topText{
+    font-family: 'Microsoft YaHei UI',fantasy;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bottomText{
+    font-family: 'Microsoft YaHei UI',fantasy;
+    font-size:15px;
+}
