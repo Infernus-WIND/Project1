@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Browse</title>
-    <link rel="stylesheet" type="text/css" href="css/Browse.css" />
+    <link rel="stylesheet" type="text/css" href="css/Browse.css"/>
 </head>
 <body>
 <div id="nav">
     <a href="Home.html">
-        <img src="./icon/Plane.png" alt="Plane" id="plane" />
+        <img src="./icon/Plane.png" alt="Plane" id="plane"/>
     </a>
     <a href="Home.html">
         <div id="homeButton">
@@ -25,34 +25,34 @@
             Search
         </div>
     </a>
-    <div class="dropdown" >
+    <div class="dropdown">
         <div id="myAccount">
-            <img src="icon/Account.png" alt="account" class="icon" />
+            <img src="icon/Account.png" alt="account" class="icon"/>
             <span>
                 My Account
             </span>
         </div>
         <div class="dropdown-content">
             <a href="Upload.html">
-                <img src="icon/upload.png" alt="upload" class="icon1" />
+                <img src="icon/upload.png" alt="upload" class="icon1"/>
                 <div class="dropdown-button">
                     Upload
                 </div>
             </a>
             <a href="My%20Photo.html">
-                <img src="icon/My%20Photo.png" alt="My Photo" class="icon2" />
+                <img src="icon/My%20Photo.png" alt="My Photo" class="icon2"/>
                 <div class="dropdown-button">
                     My Photo
                 </div>
             </a>
             <a href="Favourite.html">
-                <img src="icon/Favourite.png" alt="Favourite" class="icon3" />
+                <img src="icon/Favourite.png" alt="Favourite" class="icon3"/>
                 <div class="dropdown-button">
                     Favourite
                 </div>
             </a>
             <a href="Log%20in.html">
-                <img src="icon/Sign%20in.png" alt="Sign in" class="icon4" />
+                <img src="icon/Sign%20in.png" alt="Sign in" class="icon4"/>
                 <div class="dropdown-button">
                     Sign in
                 </div>
@@ -65,5 +65,244 @@
         ??All Rights Reserved??备案号：沪19I3N0F2E0R1N0U0S17
     </p>
 </footer>
+<div id="leftAside">
+    <form id="searchBlock">
+        Search by Title<br>
+        <label>
+            <input type="text" name="search" value="" id="input">
+        </label>
+        <button id="searchButtonImg" onclick="alert('Search done.')">
+            <img src="./icon/搜索.png" alt="Search">
+        </button>
+    </form>
+    <div class="popular">
+        <div class="popularText1">
+            Popular Cities
+        </div>
+        <a href="">
+            <div class="popularText" onclick="alert('Done')">
+                Shanghai
+            </div>
+        </a>
+        <a href="">
+            <div class="popularText" onclick="alert('Done')">
+                Tokyo
+            </div>
+        </a>
+        <a href="">
+            <div class="popularText" onclick="alert('Done')">
+                Rome
+            </div>
+        </a>
+        <a href="">
+            <div class="lastPopularText" onclick="alert('Done')">
+                San Francisco
+            </div>
+        </a>
+    </div>
+    <div class="popular">
+        <div class="popularText1">
+            Popular Countries
+        </div>
+        <a href="">
+            <div class="popularText" onclick="alert('Done')">
+                China
+            </div>
+        </a>
+        <a href="">
+            <div class="popularText" onclick="alert('Done')">
+                Japan
+            </div>
+        </a>
+        <a href="">
+            <div class="popularText" onclick="alert('Done')">
+                Italy
+            </div>
+        </a>
+        <a href="">
+            <div class="lastPopularText" onclick="alert('Done')">
+                United States
+            </div>
+        </a>
+    </div>
+</div>
+<div id="majorPart">
+    <div id="filter">
+        <label>
+            <select class="select">
+                <option value="none" selected disabled hidden>Content</option>
+                <option value="City">City</option>
+                <option value="Scenery">Scenery</option>
+                <option value="People">People</option>
+                <option value="Animal">Animal</option>
+                <option value="Building">Building</option>
+                <option value="Wonder">Wonder</option>
+            </select>
+        </label>
+        <select id="country" class="select">
+            <option value="" hidden disabled selected>Country</option>
+        </select>
+        <select id="city" class="select3">
+            <option value="">Please choose a country</option>
+        </select>
+        <script>
+            var json = [{
+                id: 1,
+                name: 'China',
+                child: [{
+                    id: '1',
+                    name: 'Shanghai'
+                }, {
+                    id: '2',
+                    name: 'Beijing'
+                }, {
+                    id: '3',
+                    name: 'Kunming'
+                }, {
+                    id: '4',
+                    name: 'Yantai'
+                }]
+            }, {
+                id: 2,
+                name: 'Japan',
+                child: [{
+                    id: '1',
+                    name: 'Tokyo'
+                }, {
+                    id: '2',
+                    name: 'Osaka'
+                }, {
+                    id: '3',
+                    name: 'Kamakura'
+                }]
+            }, {
+                id: 3,
+                name: 'Italy',
+                child: [{
+                    id: '1',
+                    name: 'Rome'
+                }, {
+                    id: '2',
+                    name: 'Milan'
+                }, {
+                    id: '3',
+                    name: 'Venice'
+                }, {
+                    id: '4',
+                    name: 'Florence'
+                }]
+            }, {
+                id: 4,
+                name: 'America',
+                child: [{
+                    id: '1',
+                    name: 'New York'
+                }, {
+                    id: '2',
+                    name: 'San Francisco'
+                }, {
+                    id: '3',
+                    name: 'Washington'
+                }]
+            }];
+            const country = document.getElementById('country');
+            const city = document.getElementById('city');
+            json.map(function (s) {
+                createop(s, country);
+            });
+            country.onchange = function () {
+                city.innerHTML = '';
+                json.map(function (s) {
+                    if (s.id == this.options[this.selectedIndex].id) {
+                        s.child.map(function (x) {
+                            createop(x, city);
+                        });
+                    }
+                }.bind(this));
+            };
+
+            function createop(h, parent) {
+                const op = document.createElement('option');
+                const op_t = document.createTextNode(h.name);
+                op.appendChild(op_t);
+                op.id = h.id;
+                parent.appendChild(op);
+            }
+        </script>
+        <button id="filterButton" onclick="alert('Filter Done')">
+            filter
+        </button>
+    </div>
+    <div id="images">
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/5855174537.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/5855191275.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/5855221959.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/5856658791.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/5855209453.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/222223.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/5855729828.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/6114881215.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/6114859969.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/6114904363.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/9496792166.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/9496560520.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/9494475161.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/9496787858.jpg" alt="img" class="image">
+        </a>
+        <a href="imgDetail.html">
+            <img src="./img/square/square-medium/9494282329.jpg" alt="img" class="image">
+        </a>
+    </div>
+    <div id="pageNumberBlock">
+        <a href="" class="pageNumber">
+            &#60&#60
+        </a>
+        <a href="" class="pageNumber">
+            1
+        </a>
+        <a href="" class="pageNumber">
+            2
+        </a>
+        <a href="" class="pageNumber">
+            3
+        </a>
+        <a href="" class="pageNumber">
+            4
+        </a>
+        <a href="" class="pageNumber">
+            5
+        </a>
+        <a href="" class="pageNumber">
+            &#62&#62
+        </a>
+    </div>
+</div>
 </body>
 </html>
