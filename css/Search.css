@@ -1,136 +1,115 @@
-html,body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#nav{
-    background-color: #dbffe7;
-    height: 30px;
-    float: top;
-    padding:5px;
-    width: 99%;
-    color: #002b36;
-}
-
-#plane{
-    position: absolute;
-}
-
-#homeButton{
-    height: 30px;
-    background-color: #dbffe7;
-    font-family: "Bradley Hand ITC", fantasy;
-    font-weight: bold;
-    width:150px;
-    font-size: 25px;
-    position: fixed;
-    left: 80px;
-    text-align: center;
-    color: #002b36;
-}
-
-#browseButton{
-    height: 30px;
-    background-color: #dbffe7;
-    font-family: "Bradley Hand ITC", fantasy;
-    font-weight: bold;
-    width:150px;
-    font-size: 25px;
-    position: fixed;
-    left: 230px;
-    text-align: center;
-    color: #002b36;
-}
-
 #searchButton{
-    height: 30px;
     background-color: #ffea8f;
-    font-family: "Bradley Hand ITC", fantasy;
-    font-weight: bold;
-    width:150px;
-    font-size: 25px;
-    position: fixed;
-    left: 380px;
-    text-align: center;
-    color: #002b36;
 }
 
-a{
-    text-decoration: none;
-}
-
-#homeButton:hover,#browseButton:hover,#searchButton:hover{
-    background-color: #ffc900;
-}
-
-.dropdown{
+#searchingBlockBackground{
     position:absolute;
-    margin: auto;
-    right: 10px;
-    text-align: center;
-    display: inline-block;
-    font-family: "Bradley Hand ITC", fantasy;
-    font-weight: bold;
-    font-size: 22px;
+    left:20px;
+    top:80px;
+    width: 300px;
+    height:500px;
+    background-color: #ebeecf;
+    border-radius: 30px;
 }
 
-#myAccount:hover{
+#searchingBlock{
+    position: relative;
+    left:20px;
+    top:20px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#filterByTitleInput{
+    width:260px;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#textarea{
+    width:258px;
+    height:200px;
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#filterButton{
+    position: relative;
+    height:40px;
+    width:260px;
+    background-color: #dbffe7;
+    font-size: 25px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+}
+
+#filterButton:hover{
+    background-color: #ffea8f;
     cursor: pointer;
 }
 
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #dbffe7;
-    min-width: 150px;
+#resultBlockBackground{
+    position:absolute;
+    left:400px;
+    top:80px;
+    width: 1100px;
+    height:1200px;
+    background-color: #ebeecf;
+    border-radius: 30px;
+    margin-bottom: 100px;
 }
 
-.dropdown:hover .dropdown-content{
-    display: block;
+#resultText{
+    font-size: 25px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bolder;
+    position: relative;
+    left:20px;
+    top:20px;
 }
 
-.dropdown-button{
-    min-width: 150px;
-    height: 50px;
-    line-height: 50px;
-    color: #002b36;
+.results{
+    position: relative;
+    left:20px;
+    top:50px;
 }
 
-.dropdown-button:hover{
-    background-color: #ffc900;
+.resultImg{
+    border-radius: 30px;
+    margin-bottom: 50px;
 }
 
-.icon1{
-    position: absolute;
-    left: 0;
-    top:10px;
+.resultDetails{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    /* autoprefixer:ignore next*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+    width:800px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 20px;
 }
 
-.icon2{
-    position: absolute;
-    left: 0;
-    top:60px;
+#pageNumberBlock{
+    position:relative;
+    left:480px;
+    top:55px;
+    max-width: 600px;
 }
 
-.icon3{
-    position: absolute;
-    left: 0;
-    top:110px;
+.pageNumber{
+    margin-left: 5px;
 }
 
-.icon4{
-    position: absolute;
-    left: 0;
-    top:160px;
-}
-
-#footer{
-    position:fixed;
-    bottom:0;
-    background-color: #AAA;
-    width:100%;
-    text-align: center;
-    font-family: 'Microsoft YaHei UI',fantasy;
-    opacity: 0.7;
+.resultTitles{
+    font-size: 30px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bolder;
 }

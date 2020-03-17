@@ -1,9 +1,80 @@
-#footer{
-    position:fixed;
-    bottom:0;
-    background-color: #AAA;
-    width:100%;
-    text-align: center;
-    font-family: 'Microsoft YaHei UI',fantasy;
-    opacity: 0.7;
+#resultBlockBackground{
+    position:absolute;
+    left:200px;
+    top:80px;
+    width: 1100px;
+    height:1200px;
+    background-color: #ebeecf;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+#resultText{
+    font-size: 25px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bolder;
+    position: relative;
+    left:20px;
+    top:20px;
+}
+
+.results{
+    position: relative;
+    left:20px;
+    top:50px;
+}
+
+.resultImg{
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.resultDetails{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    /* autoprefixer:ignore next*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+    width:800px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+#pageNumberBlock{
+    position:relative;
+    left:480px;
+    top:55px;
+    max-width: 600px;
+}
+
+.pageNumber{
+    margin-left: 5px;
+}
+
+.resultTitles{
+    font-size: 30px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bolder;
+    display: inline;
+}
+
+.modifyDeleteButton{
+    height:40px;
+    width:100px;
+    margin-left: 50px;
+    background-color: #dbffe7;
+    font-size: 25px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+}
+
+.modifyDeleteButtonBlock{
+    display: inline;
+}
+
+.modifyDeleteButton:hover{
+    background-color: #ffea8f;
+    cursor: pointer;
 }

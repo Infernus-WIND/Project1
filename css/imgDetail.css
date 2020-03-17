@@ -1,0 +1,57 @@
+#img{
+    border-radius: 30px;
+    position: relative;
+    top:30px;
+    left:30px;
+    display: inline;
+}
+
+#mainBackground{
+    background-color: #ebeecf;
+    height:540px;
+    width:1400px;
+    position: absolute;
+    top:100px;
+    left:50px;
+    border-radius: 50px;
+}
+
+#detailBlock{
+    position: absolute;
+    top:30px;
+    left:700px;
+    display: inline;
+}
+
+#title{
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#detail{
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#favouriteBlock{
+    position: absolute;
+    left:500px;
+}
+
+#likeButton{
+    position: relative;
+    height:40px;
+    width:150px;
+    background-color: #dbffe7;
+    font-size: 25px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+}
+
+#likeButton:hover{
+    background-color: #ffea8f;
+    cursor: pointer;
+}

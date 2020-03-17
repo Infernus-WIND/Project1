@@ -86,6 +86,7 @@ a{
     position: absolute;
     background-color: #dbffe7;
     min-width: 150px;
+    z-index: 999;
 }
 
 .dropdown:hover .dropdown-content{
@@ -133,7 +134,7 @@ a{
     background-color: #AAA;
     width:100%;
     font-family: 'Microsoft YaHei UI',fantasy;
-    opacity: 0.7;
+    opacity: 0.5;
     min-height: 60px;
 }
 
@@ -173,12 +174,9 @@ a{
     height: 540px;
     width: 700px;
     border-radius: 25px;
-    margin:auto;
     position:absolute;
-    left:0;
-    top:0;
-    right:0;
-    bottom:0;
+    left:400px;
+    top:100px;
 }
 
 #headImg{
@@ -200,7 +198,7 @@ a{
 #rightImgBlock{
     margin-top: 30px;
     position: absolute;
-    right:100px;
+    left:1200px;
 }
 
 
@@ -307,4 +305,48 @@ a{
     margin-top: 30px;
     position: absolute;
     left: 450px;
+}
+
+#hoverButton1{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #a6fff2;
+    text-align: center;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    opacity: 0.5;
+}
+
+#hoverButton2{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #a6fff2;
+    text-align: center;
+    position: fixed;
+    bottom: 160px;
+    right: 10px;
+    opacity: 0.5;
+}
+
+#hoverButton1Text{
+    position:absolute;
+    top:5px;
+    left:20px;
+}
+
+#hoverButton2Text{
+    position:absolute;
+    top:15px;
+}
+
+#hoverButton1:hover,#hoverButton2:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+button{
+    outline: none;
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Browse</title>
+    <link rel="stylesheet" type="text/css" href="css/navAndFooter.css" />
     <link rel="stylesheet" type="text/css" href="css/Browse.css"/>
 </head>
 <body>
@@ -71,7 +72,7 @@
         <label>
             <input type="text" name="search" value="" id="input">
         </label>
-        <button id="searchButtonImg" onclick="alert('Search done.')">
+        <button id="searchButtonImg" onclick="alert('Search done.')" type="button">
             <img src="./icon/搜索.png" alt="Search">
         </button>
     </form>
@@ -143,7 +144,7 @@
             <option value="" hidden disabled selected>Country</option>
         </select>
         <select id="city" class="select3">
-            <option value="">Please choose a country</option>
+            <option value="" hidden disabled selected>Please choose a country</option>
         </select>
         <script>
             var json = [{
