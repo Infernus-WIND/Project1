@@ -4,11 +4,13 @@
 
 #searchButtonImg{
     position: relative;
-    top: 4px;
+    top: 3px;
+    height:25px;
 }
 
 #input{
     height:22px;
+    width: 180px;
 }
 
 #searchBlock{
@@ -54,7 +56,7 @@
     position: absolute;
     left:20px;
     top:100px;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
 }
 
@@ -87,6 +89,8 @@
     top:30px;
     border-radius: 20px;
     margin: 35px;
+    height: 150px;
+    width: 150px;
 }
 
 .pageNumber{
@@ -106,7 +110,7 @@
     width:150px;
     font-size: 20px;
     margin-right: 70px;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
 }
 
@@ -116,7 +120,7 @@
     min-width: 150px;
     background-color: #dbffe7;
     font-size: 20px;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
 }
 
@@ -127,7 +131,7 @@
     width:150px;
     background-color: #dbffe7;
     font-size: 20px;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
 }
 

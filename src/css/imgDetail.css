@@ -24,14 +24,14 @@
 }
 
 #title{
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
     font-size: 30px;
     margin-bottom: 30px;
 }
 
 #detail{
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
     font-size: 25px;
 }
@@ -47,7 +47,7 @@
     width:150px;
     background-color: #dbffe7;
     font-size: 25px;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
 }
 

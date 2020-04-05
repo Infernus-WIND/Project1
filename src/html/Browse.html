@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Browse</title>
-    <link rel="stylesheet" type="text/css" href="css/navAndFooter.css" />
-    <link rel="stylesheet" type="text/css" href="css/Browse.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/navAndFooter.css" />
+    <link rel="stylesheet" type="text/css" href="../css/Browse.css"/>
 </head>
 <body>
 <div id="nav">
     <a href="Home.html">
-        <img src="./icon/Plane.png" alt="Plane" id="plane"/>
+        <img src="../../img/icon/Plane.png" alt="Plane" id="plane"/>
     </a>
     <a href="Home.html">
         <div id="homeButton">
@@ -28,32 +29,32 @@
     </a>
     <div class="dropdown">
         <div id="myAccount">
-            <img src="icon/Account.png" alt="account" class="icon"/>
+            <img src="../../img/icon/Account.png" alt="account" class="icon"/>
             <span>
                 My Account
             </span>
         </div>
         <div class="dropdown-content">
             <a href="Upload.html">
-                <img src="icon/upload.png" alt="upload" class="icon1"/>
+                <img src="../../img/icon/upload.png" alt="upload" class="icon1"/>
                 <div class="dropdown-button">
                     Upload
                 </div>
             </a>
             <a href="My%20Photo.html">
-                <img src="icon/My%20Photo.png" alt="My Photo" class="icon2"/>
+                <img src="../../img/icon/My%20Photo.png" alt="My Photo" class="icon2"/>
                 <div class="dropdown-button">
                     My Photo
                 </div>
             </a>
             <a href="Favourite.html">
-                <img src="icon/Favourite.png" alt="Favourite" class="icon3"/>
+                <img src="../../img/icon/Favourite.png" alt="Favourite" class="icon3"/>
                 <div class="dropdown-button">
                     Favourite
                 </div>
             </a>
-            <a href="Log%20in.html">
-                <img src="icon/Sign%20in.png" alt="Sign in" class="icon4"/>
+            <a href="../../index.html">
+                <img src="../../img/icon/Sign%20in.png" alt="Sign in" class="icon4"/>
                 <div class="dropdown-button">
                     Sign in
                 </div>
@@ -62,7 +63,7 @@
     </div>
 </div>
 <footer id="footer">
-    <p>
+    <p id="footerText">
         ??All Rights Reserved??备案号：沪19I3N0F2E0R1N0U0S17
     </p>
 </footer>
@@ -73,7 +74,7 @@
             <input type="text" name="search" value="" id="input">
         </label>
         <button id="searchButtonImg" onclick="alert('Search done.')" type="button">
-            <img src="./icon/搜索.png" alt="Search">
+            <img src="../../img/icon/搜索.png" alt="Search">
         </button>
     </form>
     <div class="popular">
@@ -123,6 +124,31 @@
         <a href="">
             <div class="lastPopularText" onclick="alert('Done')">
                 United States
+            </div>
+        </a>
+    </div>
+    <div class="popular">
+        <div class="popularText1">
+            Popular Contents
+        </div>
+        <a href="">
+            <div class="popularText" onclick="alert('Done')">
+                Scenery
+            </div>
+        </a>
+        <a href="">
+            <div class="popularText" onclick="alert('Done')">
+                City
+            </div>
+        </a>
+        <a href="">
+            <div class="popularText" onclick="alert('Done')">
+                People
+            </div>
+        </a>
+        <a href="">
+            <div class="lastPopularText" onclick="alert('Done')">
+                Animal
             </div>
         </a>
     </div>
@@ -221,7 +247,6 @@
                     }
                 }.bind(this));
             };
-
             function createop(h, parent) {
                 const op = document.createElement('option');
                 const op_t = document.createTextNode(h.name);
@@ -236,49 +261,49 @@
     </div>
     <div id="images">
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/5855174537.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/5855174537.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/5855191275.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/5855191275.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/5855221959.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/5855221959.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/5856658791.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/5856658791.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/5855209453.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/5855209453.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/222223.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/222223.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/5855729828.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/5855729828.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/6114881215.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/6114881215.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/6114859969.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/6114859969.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/6114904363.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/6114904363.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/9496792166.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/9496792166.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/9496560520.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/9496560520.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/9494475161.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/9494475161.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/9496787858.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/9496787858.jpg" alt="img" class="image">
         </a>
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/9494282329.jpg" alt="img" class="image">
+            <img src="../../img/normal/medium/9494282329.jpg" alt="img" class="image">
         </a>
     </div>
     <div id="pageNumberBlock">

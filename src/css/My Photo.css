@@ -1,0 +1,98 @@
+#resultBlockBackground{
+    position:absolute;
+    left:10vw;
+    top:10vh;
+    width: 73vw;
+    height:120vw;
+    background-color: #ebeecf;
+    border-radius: 3vw;
+    margin-bottom: 8vw;
+}
+
+#resultText{
+    font-size: 2vw;
+    font-family: "Bradley Hand ITC", cursive;
+    font-weight: bolder;
+    position: relative;
+    left:2vw;
+    top:4vh;
+}
+
+.results{
+    position: relative;
+    left:2vw;
+    top:5vh;
+}
+
+.resultImg{
+    border-radius: 3vw;
+    margin-bottom: 5vw;
+    height: 15vw;
+    width: 15vw;
+}
+
+.resultDetails{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    /* autoprefixer:ignore next*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+    width:50vw;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 2vw;
+    font-size: 1.1vw;
+}
+
+#pageNumberBlock{
+    position:relative;
+    left:25vw;
+    top:3vw;
+    max-width: 40vw;
+}
+
+.pageNumber{
+    margin-left: 1vw;
+    font-size: 1.1vw;
+}
+
+.resultTitles{
+    font-size: 2vw;
+    font-family: "Bradley Hand ITC", cursive;
+    font-weight: bolder;
+    display: inline;
+}
+
+.modifyDeleteButton{
+    height:3vw;
+    width:8vw;
+    margin-left: 3vw;
+    background-color: #dbffe7;
+    font-size: 1.8vw;
+    font-family: "Bradley Hand ITC", cursive;
+    font-weight: bold;
+}
+
+.modifyDeleteButtonBlock{
+    display: inline;
+}
+
+.modifyDeleteButton:hover{
+    background-color: #ffea8f;
+    cursor: pointer;
+}
+
+#detailText{
+    font-size: 1.1vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    /* autoprefixer:ignore next*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:3;
+}
+
+button{
+    padding: 0;
+}

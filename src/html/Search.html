@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Favourite</title>
-    <link rel="stylesheet" type="text/css" href="css/navAndFooter.css" />
-    <link rel="stylesheet" type="text/css" href="css/Favourite.css" />
+    <title>Search</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/navAndFooter.css" />
+    <link rel="stylesheet" type="text/css" href="../css/Search.css" />
 </head>
 <body>
 <div id="nav">
     <a href="Home.html">
-        <img src="./icon/Plane.png" alt="Plane" id="plane"/>
+        <img src="../../img/icon/Plane.png" alt="Plane" id="plane" />
     </a>
     <a href="Home.html">
         <div id="homeButton">
@@ -26,34 +27,34 @@
             Search
         </div>
     </a>
-    <div class="dropdown">
+    <div class="dropdown" >
         <div id="myAccount">
-            <img src="icon/Account.png" alt="account" class="icon"/>
+            <img src="../../img/icon/Account.png" alt="account" class="icon" />
             <span>
                 My Account
             </span>
         </div>
         <div class="dropdown-content">
             <a href="Upload.html">
-                <img src="icon/upload.png" alt="upload" class="icon1"/>
+                <img src="../../img/icon/upload.png" alt="upload" class="icon1" />
                 <div class="dropdown-button">
                     Upload
                 </div>
             </a>
             <a href="My%20Photo.html">
-                <img src="icon/My%20Photo.png" alt="My Photo" class="icon2"/>
+                <img src="../../img/icon/My%20Photo.png" alt="My Photo" class="icon2" />
                 <div class="dropdown-button">
                     My Photo
                 </div>
             </a>
             <a href="Favourite.html">
-                <img src="icon/Favourite.png" alt="Favourite" class="icon3"/>
+                <img src="../../img/icon/Favourite.png" alt="Favourite" class="icon3" />
                 <div class="dropdown-button">
                     Favourite
                 </div>
             </a>
-            <a href="Log%20in.html">
-                <img src="icon/Sign%20in.png" alt="Sign in" class="icon4"/>
+            <a href="../../index.html">
+                <img src="../../img/icon/Sign%20in.png" alt="Sign in" class="icon4" />
                 <div class="dropdown-button">
                     Sign in
                 </div>
@@ -62,96 +63,87 @@
     </div>
 </div>
 <footer id="footer">
-    <p>
+    <p id="footerText">
         ??All Rights Reserved??备案号：沪19I3N0F2E0R1N0U0S17
     </p>
 </footer>
+<div id="searchingBlockBackground">
+    <div id="searchingBlock">
+        <form>
+            <label>
+                <input type="radio" name="filter" value="title" checked>Filter by Title
+            </label><br>
+            <label>
+                <textarea id="filterByTitleInput"></textarea>
+            </label><br>
+            <label>
+                <input type="radio" name="filter" value="description">Filter by Description
+            </label><br>
+            <label>
+                <textarea id="textarea"></textarea>
+            </label>
+            <button id="filterButton" onclick="alert('Filter Done')">
+                Filter
+            </button>
+        </form>
+    </div>
+</div>
 <div id="resultBlockBackground">
     <div id="resultText">
-        My Favourite:
+        Result:
     </div>
     <div class="results">
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/8710320515.jpg" alt="result" class="resultImg">
+            <img src="../../img/normal/medium/8710320515.jpg" alt="result" class="resultImg">
         </a>
         <div class="resultDetails">
-            <div>
-                <div class="resultTitles">
-                    This is TITLE!
-                </div>
-                <div class="modifyDeleteButtonBlock">
-                    <button class="modifyDeleteButton" onclick="alert('Delete Done')">Delete</button>
-                </div>
-            </div>
-            <br>
+            <div class="resultTitles">
+                This is TITLE!
+            </div><br>
             This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!
         </div>
     </div>
     <div class="results">
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/8710320515.jpg" alt="result" class="resultImg">
+            <img src="../../img/normal/medium/8710320515.jpg" alt="result" class="resultImg">
         </a>
         <div class="resultDetails">
-            <div>
-                <div class="resultTitles">
-                    This is TITLE!
-                </div>
-                <div class="modifyDeleteButtonBlock">
-                    <button class="modifyDeleteButton" onclick="alert('Delete Done')">Delete</button>
-                </div>
-            </div>
-            <br>
+            <div class="resultTitles">
+                This is TITLE!
+            </div><br>
             This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!
         </div>
     </div>
     <div class="results">
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/8710320515.jpg" alt="result" class="resultImg">
+            <img src="../../img/normal/medium/8710320515.jpg" alt="result" class="resultImg">
         </a>
         <div class="resultDetails">
-            <div>
-                <div class="resultTitles">
-                    This is TITLE!
-                </div>
-                <div class="modifyDeleteButtonBlock">
-                    <button class="modifyDeleteButton" onclick="alert('Delete Done')">Delete</button>
-                </div>
-            </div>
-            <br>
+            <div class="resultTitles">
+                This is TITLE!
+            </div><br>
             This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!
         </div>
     </div>
     <div class="results">
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/8710320515.jpg" alt="result" class="resultImg">
+            <img src="../../img/normal/medium/8710320515.jpg" alt="result" class="resultImg">
         </a>
         <div class="resultDetails">
-            <div>
-                <div class="resultTitles">
-                    This is TITLE!
-                </div>
-                <div class="modifyDeleteButtonBlock">
-                    <button class="modifyDeleteButton" onclick="alert('Delete Done')">Delete</button>
-                </div>
-            </div>
-            <br>
+            <div class="resultTitles">
+                This is TITLE!
+            </div><br>
             This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!
         </div>
     </div>
     <div class="results">
         <a href="imgDetail.html">
-            <img src="./img/square/square-medium/8710320515.jpg" alt="result" class="resultImg">
+            <img src="../../img/normal/medium/8710320515.jpg" alt="result" class="resultImg">
         </a>
         <div class="resultDetails">
-            <div>
-                <div class="resultTitles">
-                    This is TITLE!
-                </div>
-                <div class="modifyDeleteButtonBlock">
-                    <button class="modifyDeleteButton" onclick="alert('Delete Done')">Delete</button>
-                </div>
-            </div>
-            <br>
+            <div class="resultTitles">
+                This is TITLE!
+            </div><br>
             This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!This is DETAILS!
         </div>
     </div>

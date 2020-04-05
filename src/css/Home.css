@@ -5,61 +5,61 @@ html,body{
     background-color: #fcffe0;
 }
 
-
 #nav{
     background-color: #dbffe7;
-    height: 30px;
+    height: 4vh;
     float: top;
-    padding:5px;
-    width: 99%;
     color: #002b36;
 }
 
 #plane{
     position: absolute;
+    height: 4vh;
+    width:6vh;
 }
 
 #homeButton{
-    height: 30px;
+    height: 4vh;
     background-color: #ffea8f;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
-    width:150px;
-    font-size: 25px;
+    width:15vh;
+    font-size: 3.5vh;
     position: absolute;
-    left: 80px;
+    left: 6vh;
     text-align: center;
     color: #002b36;
 }
 
 #browseButton{
-    height: 30px;
+    height: 4vh;
     background-color: #dbffe7;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
-    width:150px;
-    font-size: 25px;
+    width:15vh;
+    font-size: 3.5vh;
     position: absolute;
-    left: 230px;
+    left: 21vh;
     text-align: center;
     color: #002b36;
 }
 
 #searchButton{
-    height: 30px;
+    height: 4vh;
     background-color: #dbffe7;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
-    width:150px;
-    font-size: 25px;
+    width:15vh;
+    font-size: 3.5vh;
     position: absolute;
-    left: 380px;
+    left: 36vh;
     text-align: center;
     color: #002b36;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 #homeButton:hover,#browseButton:hover,#searchButton:hover{
@@ -69,12 +69,15 @@ a{
 .dropdown{
     position:absolute;
     margin: auto;
-    right: 10px;
+    right: 0;
+    top:0;
     text-align: center;
     display: inline-block;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
-    font-size: 22px;
+    width:25vh;
+    font-size: 3vh;
+    height: 4vh;
 }
 
 #myAccount:hover{
@@ -85,8 +88,10 @@ a{
     display: none;
     position: absolute;
     background-color: #dbffe7;
-    min-width: 150px;
+    top: 4vh;
+    min-width: 10vw;
     z-index: 999;
+    width:25vh;
 }
 
 .dropdown:hover .dropdown-content{
@@ -94,9 +99,10 @@ a{
 }
 
 .dropdown-button{
-    min-width: 150px;
-    height: 50px;
-    line-height: 50px;
+    min-width: 10vw;
+    width:25vh;
+    height: 6vh;
+    line-height: 6vh;
     color: #002b36;
 }
 
@@ -104,28 +110,43 @@ a{
     background-color: #ffc900;
 }
 
+.icon{
+    position: absolute;
+    left: 0;
+    width: 4vh;
+    height: 3vh;
+}
+
 .icon1{
     position: absolute;
     left: 0;
-    top:10px;
+    top:1vh;
+    width: 4vh;
+    height: 3vh;
 }
 
 .icon2{
     position: absolute;
     left: 0;
-    top:60px;
+    top:7vh;
+    width: 4vh;
+    height: 3vh;
 }
 
 .icon3{
     position: absolute;
     left: 0;
-    top:110px;
+    top:13vh;
+    width: 4vh;
+    height: 3vh;
 }
 
 .icon4{
     position: absolute;
     left: 0;
-    top:160px;
+    top:19vh;
+    width: 4vh;
+    height: 3vh;
 }
 
 #footer{
@@ -133,21 +154,23 @@ a{
     bottom:0;
     background-color: #AAA;
     width:100%;
-    font-family: 'Microsoft YaHei UI',fantasy;
+    font-family: 'Microsoft YaHei UI',sans-serif;
     opacity: 0.5;
-    min-height: 60px;
+    height: 8%;
 }
 
 #leftText{
     position: absolute;
     left:5%;
     top: 30%;
-    max-width: 33%;
+    max-width: 30%;
+    font-size: 2vh;
 }
 
 #leftText1,#leftText2,#leftText3{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 2vw;
+    font-size: 2vh;
 }
 
 #centerText{
@@ -155,18 +178,21 @@ a{
     position: absolute;
     left: 36%;
     top:30%;
-    max-width: 33%;
+    max-width: 30%;
+    font-size: 2vh;
 }
 
 #rightText{
     position: absolute;
     right: 0;
     top:30%;
-    max-width: 35%;
+    max-width: 30%;
+    font-size: 2vh;
 }
 
 .rightIcon{
-    margin-right: 10px;
+    margin-right: 1vw;
+    height: 2vh;
 }
 
 #headImgBackground{
@@ -215,6 +241,8 @@ a{
     position: absolute;
     top: 45px;
     left: 25px;
+    height: 150px;
+    width: 150px;
 }
 
 .smallImg2{
@@ -222,6 +250,8 @@ a{
     position: absolute;
     top: 325px;
     left: 25px;
+    height: 150px;
+    width: 150px;
 }
 
 .smallImg3{
@@ -230,13 +260,15 @@ a{
     top:605px;
     left: 25px;
     margin-bottom: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 .smallImgText1{
     position: absolute;
     top: 205px;
     left: 25px;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
     font-size: 20px;
 }
@@ -245,7 +277,7 @@ a{
     position: absolute;
     top: 485px;
     left: 25px;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
     font-size: 20px;
 }
@@ -254,7 +286,7 @@ a{
     position: absolute;
     top: 765px;
     left: 25px;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
     font-size: 20px;
 }
@@ -274,7 +306,7 @@ a{
     position: absolute;
     top: 175px;
     left: 25px;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
     font-size: 20px;
 }
@@ -284,6 +316,8 @@ a{
     position: absolute;
     top: 15px;
     left: 25px;
+    height: 150px;
+    width: 150px;
 }
 
 .ImgBackground7{
@@ -308,38 +342,37 @@ a{
 }
 
 #hoverButton1{
-    height: 70px;
-    width: 70px;
+    height: 8vh;
+    width: 8vh;
     border-radius: 50%;
     background-color: #a6fff2;
-    text-align: center;
     position: fixed;
-    bottom: 80px;
-    right: 10px;
+    bottom: 10vh;
+    right: 1vw;
     opacity: 0.5;
+    font-size: 2.5vh;
 }
 
 #hoverButton2{
-    height: 70px;
-    width: 70px;
+    height: 8vh;
+    width: 8vh;
     border-radius: 50%;
     background-color: #a6fff2;
-    text-align: center;
     position: fixed;
-    bottom: 160px;
-    right: 10px;
+    bottom: 20vh;
+    right: 1vw;
     opacity: 0.5;
+    font-size: 2.5vh;
 }
 
-#hoverButton1Text{
-    position:absolute;
-    top:5px;
-    left:20px;
+#refreshIcon{
+    height: 6vh;
+    width: 6vh;
 }
 
-#hoverButton2Text{
-    position:absolute;
-    top:15px;
+#backToTopIcon{
+    height: 5vh;
+    width: 5vh;
 }
 
 #hoverButton1:hover,#hoverButton2:hover{
@@ -349,4 +382,6 @@ a{
 
 button{
     outline: none;
+    border:0;
+    padding: 0;
 }

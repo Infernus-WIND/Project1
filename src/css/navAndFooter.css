@@ -7,52 +7,52 @@ html,body{
 
 #nav{
     background-color: #dbffe7;
-    height: 30px;
+    height: 4vh;
     float: top;
-    padding:5px;
-    width: 99%;
     color: #002b36;
 }
 
 #plane{
     position: absolute;
+    height: 4vh;
+    width:6vh;
 }
 
 #homeButton{
-    height: 30px;
+    height: 4vh;
     background-color: #dbffe7;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
-    width:150px;
-    font-size: 25px;
+    width:15vh;
+    font-size: 3.5vh;
     position: absolute;
-    left: 80px;
+    left: 6vh;
     text-align: center;
     color: #002b36;
 }
 
 #browseButton{
-    height: 30px;
+    height: 4vh;
     background-color: #dbffe7;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
-    width:150px;
-    font-size: 25px;
+    width:15vh;
+    font-size: 3.5vh;
     position: absolute;
-    left: 230px;
+    left: 21vh;
     text-align: center;
     color: #002b36;
 }
 
 #searchButton{
-    height: 30px;
+    height: 4vh;
     background-color: #dbffe7;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
-    width:150px;
-    font-size: 25px;
+    width:15vh;
+    font-size: 3.5vh;
     position: absolute;
-    left: 380px;
+    left: 36vh;
     text-align: center;
     color: #002b36;
 }
@@ -68,13 +68,15 @@ a{
 .dropdown{
     position:absolute;
     margin: auto;
-    right: 10px;
+    right: 0;
+    top:0;
     text-align: center;
     display: inline-block;
-    font-family: "Bradley Hand ITC", fantasy;
+    font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
-    font-size: 22px;
-    z-index: 999;
+    width:25vh;
+    font-size: 3vh;
+    height: 4vh;
 }
 
 #myAccount:hover{
@@ -84,8 +86,11 @@ a{
 .dropdown-content{
     display: none;
     position: absolute;
+    top:4vh;
     background-color: #dbffe7;
-    min-width: 150px;
+    min-width: 10vw;
+    z-index: 999;
+    width:25vh;
 }
 
 .dropdown:hover .dropdown-content{
@@ -93,9 +98,10 @@ a{
 }
 
 .dropdown-button{
-    min-width: 150px;
-    height: 50px;
-    line-height: 50px;
+    min-width: 10vw;
+    width:25vh;
+    height: 6vh;
+    line-height: 6vh;
     color: #002b36;
 }
 
@@ -103,28 +109,43 @@ a{
     background-color: #ffc900;
 }
 
+.icon{
+    position: absolute;
+    left: 0;
+    width: 4vh;
+    height: 3vh;
+}
+
 .icon1{
     position: absolute;
     left: 0;
-    top:10px;
+    top:1vh;
+    width: 4vh;
+    height: 3vh;
 }
 
 .icon2{
     position: absolute;
     left: 0;
-    top:60px;
+    top:7vh;
+    width: 4vh;
+    height: 3vh;
 }
 
 .icon3{
     position: absolute;
     left: 0;
-    top:110px;
+    top:13vh;
+    width: 4vh;
+    height: 3vh;
 }
 
 .icon4{
     position: absolute;
     left: 0;
-    top:160px;
+    top:19vh;
+    width: 4vh;
+    height: 3vh;
 }
 
 #footer{
@@ -133,7 +154,12 @@ a{
     background-color: #AAA;
     width:100%;
     text-align: center;
-    font-family: 'Microsoft YaHei UI',fantasy;
+    font-family: 'Microsoft YaHei UI',sans-serif;
     opacity: 0.5;
     z-index: 999;
+    height:5%;
+}
+
+#footerText{
+    font-size: 2vh;
 }

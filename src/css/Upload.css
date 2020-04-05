@@ -1,0 +1,74 @@
+#mainBackground{
+    background-color: #ebeecf;
+    border-radius: 4vw;
+    height:100vw;
+    width:80vw;
+    margin-top: 4vw;
+    margin-left: 10vw;
+    margin-bottom: 8vw;
+}
+
+#uploadText{
+    font-family: "Bradley Hand ITC", cursive;
+    font-weight: bolder;
+    font-size: 2vw;
+    position: relative;
+    top: 1vw;
+    left: 2vw;
+}
+
+#imgBlock{
+    position:relative;
+    left: 20vw;
+    margin-top: 4vw;
+}
+
+#preview{
+    height: 22.5vw;
+    width: 40vw;
+    border-radius: 3vw;
+}
+
+#file{
+    font-size: 1.1vw;
+}
+
+#form{
+    position: relative;
+    left:20vw;
+    font-family: "Bradley Hand ITC", cursive;
+    font-weight: bolder;
+    font-size: 1.7vw;
+    margin-top: 4vw;
+}
+
+#textarea{
+    width:40vw;
+    height:20vw;
+    resize:none;
+}
+
+#submit{
+    margin-top: 1.5vw;
+    height:3vw;
+    width:15vw;
+    background-color: #dbffe7;
+    font-size: 1.7vw;
+    font-family: "Bradley Hand ITC", cursive;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: #ffea8f;
+    cursor: pointer;
+}
+
+input{
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+}
+
+textarea{
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+}
