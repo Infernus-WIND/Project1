@@ -1,7 +1,7 @@
 #resultBlockBackground{
     position:absolute;
     left:10vw;
-    top:10vh;
+    margin-top: 4vw;
     width: 73vw;
     height:120vw;
     background-color: #ebeecf;
@@ -95,4 +95,8 @@
 
 button{
     padding: 0;
+}
+
+#myPhotoButton{
+    background-color: #ffea8f;
 }

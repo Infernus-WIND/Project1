@@ -2,135 +2,148 @@
     background-color: #ffea8f;
 }
 
-#searchButtonImg{
+#searchButton2{
     position: relative;
-    top: 3px;
-    height:25px;
+    top: 0.3vw;
+    height:2vw;
+    width: 14vw;
+    background-color: #dbffe7;
+    font-size: 1.2vw;
+    font-family: "Bradley Hand ITC", cursive;
+    font-weight: bold;
+}
+
+#searchButton2:hover{
+    background-color: #ffea8f;
+    cursor: pointer;
+}
+
+#searchInputBlock{
+    height: 2vw;
+    width: 25vw;
 }
 
 #input{
-    height:22px;
-    width: 180px;
+    height:1.6vw;
+    width: 14vw;
 }
 
 #searchBlock{
-    font-size: 25px;
+    font-size: 1.7vw;
     color: #0055ca;
+    margin-bottom: 4vw;
 }
 
 .popular{
-    width:200px;
-    min-height: 200px;
-    border-radius: 30px;
+    width:14vw;
+    min-height: 14vw;
+    border-radius: 2vw;
     background-color: #ebeecf;
-    margin-top:30px;
+    margin-top:2vw;
 }
 
 .popularText1{
     text-align: center;
-    height: 30px;
-    font-size: 25px;
+    height: 2vw;
+    font-size: 1.7vw;
     border-bottom: 1px rgba(0,0,0,0.2) solid;
-    margin-bottom: 40px ;
+    margin-bottom: 2.5vw ;
     position: relative;
-    top:20px;
+    top:1.2vw;
     color: #0055ca;
 }
 
 .popularText{
     color: #001a39;
     text-align: center;
-    height: 30px;
-    font-size: 20px;
+    height: 2vw;
+    font-size: 1.3vw;
     border-bottom: 1px rgba(0,0,0,0.2) solid;
 }
 
 .lastPopularText{
     color: #001a39;
     text-align: center;
-    height: 30px;
-    font-size: 20px;
+    height: 2vw;
+    font-size: 1.3vw;
 }
 
 #leftAside{
     position: absolute;
-    left:20px;
-    top:100px;
+    left:2vw;
+    margin-top: 4vw;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
 }
 
 #majorPart{
-    width:1200px;
-    height:800px;
-    position: relative;
-    left:300px;
-    top:50px;
+    width:78vw;
+    height:60vw;
+    position: absolute;
+    left:20vw;
+    margin-top: 4vw;
     background-color: #ebeecf;
-    border-radius: 50px;
-    margin-bottom: 100px;
+    border-radius: 4vw;
+    margin-bottom: 7vw;
 }
 
 #filter{
-    height:50px;
+    height:4vw;
     position: relative;
-    left:65px;
-    top:40px;
-    width:1000px;
-}
-
-#images{
-
+    left:5vw;
+    top:3vw;
+    width:78vw;
 }
 
 .image{
     position: relative;
-    left:30px;
-    top:30px;
-    border-radius: 20px;
-    margin: 35px;
-    height: 150px;
-    width: 150px;
+    left:3vw;
+    top:3vw;
+    border-radius: 1.5vw;
+    margin: 2vw;
+    height: 10vw;
+    width: 10vw;
 }
 
 .pageNumber{
-    margin-left: 5px;
+    margin-left: 1vw;
+    font-size: 1.5vw;
 }
 
 #pageNumberBlock{
     position:relative;
-    left:518px;
-    top:25px;
-    max-width: 600px;
+    left:31vw;
+    top:3vw;
+    max-width: 30vw;
 }
 
 .select{
     background-color: #dbffe7;
-    height:30px;
-    width:150px;
-    font-size: 20px;
-    margin-right: 70px;
+    height:2vw;
+    width:10vw;
+    font-size: 1.2vw;
+    margin-right: 4vw;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
 }
 
 .select3{
-    height:30px;
+    height:2vw;
     width:auto;
-    min-width: 150px;
+    min-width:10vw;
     background-color: #dbffe7;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
 }
 
 #filterButton{
     position: relative;
-    left:65px;
-    height:30px;
-    width:150px;
+    left:4vw;
+    height:2vw;
+    width:10vw;
     background-color: #dbffe7;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
 }

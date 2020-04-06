@@ -1,7 +1,7 @@
 #resultBlockBackground{
     position:absolute;
     left:10vw;
-    top:10vh;
+    margin-top: 4vw;
     width: 73vw;
     height:120vw;
     background-color: #ebeecf;
@@ -83,3 +83,6 @@
     cursor: pointer;
 }
 
+#favouriteButton{
+    background-color: #ffea8f;
+}

@@ -4,46 +4,52 @@
 
 #searchingBlockBackground{
     position:absolute;
-    left:20px;
-    top:80px;
-    width: 300px;
-    height:500px;
+    left:1vw;
+    margin-top: 4vw;
+    width: 20vw;
+    height:35vw;
     background-color: #ebeecf;
-    border-radius: 30px;
+    border-radius: 2vw;
 }
 
 #searchingBlock{
     position: relative;
-    left:20px;
-    top:20px;
+    left:1vw;
+    top:1vw;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 1.8vw;
 }
 
 #filterByTitleInput{
-    width:260px;
-    border-radius: 5px;
+    width:16vw;
+    border-radius: 1vw;
     resize: none;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    height: 5vw;
+}
+
+.radio{
+    height: 1vw;
+    width: 1vw;
 }
 
 #textarea{
-    width:258px;
-    height:200px;
+    width:16vw;
+    height:10vw;
     resize: none;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    border-radius: 1.3vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
 }
 
 #filterButton{
     position: relative;
-    height:40px;
-    width:260px;
+    height:3vw;
+    width:16vw;
     background-color: #dbffe7;
-    font-size: 25px;
+    font-size: 1.8vw;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
 }
@@ -55,35 +61,35 @@
 
 #resultBlockBackground{
     position:absolute;
-    left:400px;
-    top:80px;
-    width: 1100px;
-    height:1200px;
+    left:25vw;
+    margin-top: 4vw;
+    width: 70vw;
+    height:95vw;
     background-color: #ebeecf;
-    border-radius: 30px;
-    margin-bottom: 100px;
+    border-radius: 2vw;
+    margin-bottom: 8vw;
 }
 
 #resultText{
-    font-size: 25px;
+    font-size: 1.8vw;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
     position: relative;
-    left:20px;
-    top:20px;
+    left:1vw;
+    top:1vw;
 }
 
 .results{
     position: relative;
-    left:20px;
-    top:50px;
+    left:2vw;
+    top:2.5vw;
 }
 
 .resultImg{
-    border-radius: 30px;
-    margin-bottom: 50px;
-    height: 150px;
-    width: 150px;
+    border-radius: 2vw;
+    margin-bottom: 5vw;
+    height: 10vw;
+    width: 10vw;
 }
 
 .resultDetails{
@@ -92,26 +98,29 @@
     display:-webkit-box;
     /* autoprefixer:ignore next*/
     -webkit-box-orient: vertical;
-    -webkit-line-clamp:4;
-    width:800px;
+    -webkit-line-clamp:3;
+    width:48vw;
     float: right;
-    margin-right: 120px;
-    margin-top: 20px;
+    margin-right: 8vw;
+    margin-top: 1.2vw;
+    font-size: 1vw;
+    max-height: 12vw;
 }
 
 #pageNumberBlock{
     position:relative;
-    left:480px;
-    top:55px;
-    max-width: 600px;
+    left:20vw;
+    top:4vw;
+    max-width: 50vw;
 }
 
 .pageNumber{
-    margin-left: 5px;
+    margin-left: 1vw;
+    font-size: 1.1vw;
 }
 
 .resultTitles{
-    font-size: 30px;
+    font-size: 2vw;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
 }

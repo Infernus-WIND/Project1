@@ -75,6 +75,7 @@ a{
     display: inline-block;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bold;
+    min-width: 10vw;
     width:25vh;
     font-size: 3vh;
     height: 4vh;
@@ -159,10 +160,19 @@ a{
     height: 8%;
 }
 
+#welcomeText{
+    margin: 0.5vw auto 2vw;
+    width: 55%;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bolder;
+    font-size: 2.5vw;
+    color: #e7a700;
+}
+
 #leftText{
     position: absolute;
     left:5%;
-    top: 30%;
+    top:30%;
     max-width: 30%;
     font-size: 2vh;
 }
@@ -195,150 +205,152 @@ a{
     height: 2vh;
 }
 
+
+
+
 #headImgBackground{
     background-color: #ebeecf;
-    height: 540px;
-    width: 700px;
-    border-radius: 25px;
+    height: 39vw;
+    width: 50vw;
+    border-radius: 2vw;
     position:absolute;
-    left:400px;
-    top:100px;
+    left: 25vw;
 }
 
 #headImg{
-    border-radius: 25px;
+    border-radius: 2vw;
     margin:auto;
     position:absolute;
     left:0;
     top:0;
     right:0;
     bottom:0;
+    height: 35vw;
+    width: 46.7vw;
 }
 
 #leftImgBlock{
-    margin-top: 30px;
     position: absolute;
-    left:100px;
+    left:8vw;
 }
 
 #rightImgBlock{
-    margin-top: 30px;
     position: absolute;
-    left:1200px;
+    right: 8vw;
 }
-
 
 .ImgBackground{
     background-color: #ebeecf;
-    height: 250px;
-    width: 200px;
-    border-radius: 20px;
-    margin-top: 30px;
+    height: 16vw;
+    width: 12vw;
+    border-radius: 1.5vw;
+    margin-bottom: 4vw;
 }
 
 .smallImg1{
-    border-radius: 20px;
+    border-radius: 1.5vw;
     position: absolute;
-    top: 45px;
-    left: 25px;
-    height: 150px;
-    width: 150px;
+    top: 1vw;
+    left: 1vw;
+    height: 10vw;
+    width: 10vw;
 }
 
 .smallImg2{
-    border-radius: 20px;
+    border-radius: 1.5vw;
     position: absolute;
-    top: 325px;
-    left: 25px;
-    height: 150px;
-    width: 150px;
+    top: 21vw;
+    left: 1vw;
+    height: 10vw;
+    width: 10vw;
 }
 
 .smallImg3{
-    border-radius: 20px;
+    border-radius: 1.5vw;
     position: absolute;
-    top:605px;
-    left: 25px;
-    margin-bottom: 200px;
-    height: 150px;
-    width: 150px;
+    top:41vw;
+    left: 1vw;
+    margin-bottom: 10vw;
+    height: 10vw;
+    width: 10vw;
 }
 
 .smallImgText1{
     position: absolute;
-    top: 205px;
-    left: 25px;
+    top: 12vw;
+    width: 12vw;
+    text-align: center;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 .smallImgText2{
     position: absolute;
-    top: 485px;
-    left: 25px;
+    top: 32vw;
+    width: 12vw;
+    text-align: center;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 .smallImgText3{
     position: absolute;
-    top: 765px;
-    left: 25px;
+    top: 52vw;
+    width: 12vw;
+    text-align: center;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 #img7{
      position: absolute;
-     top:540px;
+     top:40vw;
 }
 
 #img8{
     position: absolute;
-    top:540px;
-    right: 0;
+    top:40vw;
 }
 
 .smallImgText7{
     position: absolute;
-    top: 175px;
-    left: 25px;
+    top: 12vw;
+    width: 12vw;
+    text-align: center;
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 .smallImg7{
-    border-radius: 20px;
+    border-radius: 1.5vw;
     position: absolute;
-    top: 15px;
-    left: 25px;
-    height: 150px;
-    width: 150px;
+    top: 1vw;
+    left: 1vw;
+    height: 10vw;
+    width: 10vw;
 }
 
 .ImgBackground7{
     background-color: #ebeecf;
-    height: 250px;
-    width: 200px;
-    border-radius: 20px;
-    margin-top: 30px;
+    height: 16vw;
+    width: 12vw;
+    border-radius: 1.5vw;
     position: absolute;
-    left: 50px;
-    margin-bottom: 100px;
+    left: 5vw;
+    margin-bottom: 8vw;
 }
 
 .ImgBackground8{
     background-color: #ebeecf;
-    height: 250px;
-    width: 200px;
-    border-radius: 20px;
-    margin-top: 30px;
+    height: 16vw;
+    width: 12vw;
+    border-radius: 1.5vw;
     position: absolute;
-    left: 450px;
+    right: 5vw;
 }
 
 #hoverButton1{
