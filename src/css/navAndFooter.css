@@ -164,3 +164,47 @@ a{
 #footerText{
     font-size: 2vh;
 }
+
+
+@media screen and (max-width: 600px) {
+    #homeButton,#browseButton,#searchButton{
+        width: 10vh;
+        font-size: 2.5vh;
+    }
+
+    #homeButtonText,#browseButtonText,#searchButtonText{
+        padding-top: 6%;
+    }
+
+    #browseButton{
+        left:16vh;
+    }
+
+    #searchButton{
+        left:26vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #homeButton,#browseButton,#searchButton{
+        width: 7vh;
+        font-size: 2vh;
+    }
+
+    #homeButtonText,#browseButtonText,#searchButtonText{
+        padding-top: 10%;
+    }
+
+    #browseButton{
+        left:13vh;
+    }
+
+    #searchButton{
+        left:20vh;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
