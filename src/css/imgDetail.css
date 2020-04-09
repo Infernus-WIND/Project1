@@ -36,6 +36,9 @@
 #detail{
     font-family: "Bradley Hand ITC", cursive;
     font-weight: bolder;
+}
+
+#detailText{
     font-size: 1.7vw;
 }
 

@@ -5,6 +5,8 @@ html,body{
     background-color: #fcffe0;
 }
 
+/*set style for nav bar and footer */
+
 #nav{
     background-color: #dbffe7;
     height: 4vh;
@@ -398,6 +400,7 @@ button{
     padding: 0;
 }
 
+/*responsive*/
 @media screen and (max-width: 700px) {
     #homeButton,#browseButton,#searchButton{
         width: 10vh;
