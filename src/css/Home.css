@@ -401,7 +401,7 @@ button{
 }
 
 /*responsive*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     #homeButton,#browseButton,#searchButton{
         width: 10vh;
         font-size: 2.5vh;
@@ -424,9 +424,9 @@ button{
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
     #homeButton,#browseButton,#searchButton{
-        width: 7vh;
+        width: 6vh;
         font-size: 2vh;
     }
 
@@ -435,11 +435,11 @@ button{
     }
 
     #browseButton{
-        left:13vh;
+        left:12vh;
     }
 
     #searchButton{
-        left:20vh;
+        left:18vh;
     }
 
     #footer{
